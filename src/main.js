@@ -8,3 +8,9 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+alert('pppppp')
+console.log('fffff')
+
+window.addEventListener('popstate', function(event) {
+  console.log(event);
+})
